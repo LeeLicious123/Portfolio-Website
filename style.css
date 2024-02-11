@@ -270,6 +270,8 @@ section {
 
 .about-containers, .about-details-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-pic {
@@ -306,7 +308,7 @@ section {
 /* Experience */
 
 #experience {
-    position: relative;
+    position: flex ;
 }
 
 .experience-sub-title {
@@ -318,8 +320,8 @@ section {
 
 .experience-details-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
 }
 
 .article-container {
@@ -345,7 +347,7 @@ article .icon {
 /* Projects Section */
 
 #projects {
-    position: relative;
+    position: center;
 }
 
 .color-container {
